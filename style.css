@@ -47,20 +47,30 @@
     margin:3px 25px;
     font-size: 20px;
  }
-
- .tweet{
+.tweets-btn{
     padding:18px 85px;
     border-radius: 30px;
-    background-color: rgb(4, 155, 252);
+    background-color: rgb(53, 169, 241);
     border:none;
     font-size: 16px;
     font-weight: bold;
     color:white;
     cursor: pointer;
 
+}
+ .tweet{
+    padding:0px 85px;
+    border-radius: 30px;
+    background-color: rgb(201, 194, 194);
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+
  }
  .tweet:hover {
-    background-color: rgb(53, 169, 241);  
+    /* background-color: rgb(53, 169, 241);   */
  }
 
  .twt:hover{
@@ -94,8 +104,9 @@ border:none;
 .home_page{
     display: flex;
     height: 50px;
-    width: 600px;
+    width: 642px;
     position:fixed;
+    background-color: rgb(237, 240, 242);
 }
 
 .text_home{
@@ -233,7 +244,7 @@ padding:20px;
     border:1px solid rgb(223, 219, 219);
 margin-top:10px; 
 padding: 20px;
-background-color: rgb(207, 206, 206);
+background-color: rgb(203, 199, 199);
 border-radius: 20px;
 width: 600px;
 
