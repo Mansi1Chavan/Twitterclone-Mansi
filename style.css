@@ -31,8 +31,8 @@
  }
 
  .capsule:hover {
-     background-color: rgb(252, 246, 246);
- }
+    background-color: rgb(222, 241, 245);
+}
 
  .twitter:hover {
      background-color: rgb(247, 242, 242);
@@ -87,12 +87,7 @@
      background-color: rgb(53, 169, 241);
  }
 
- .self {
-     display: flex;
-     justify-content: space-around;
-     cursor: pointer;
-     padding-bottom: 10px;
- }
+ 
 
  .my_photo {
      height: 40px;
@@ -134,10 +129,6 @@
      margin: 20px 10px 10px 480px;
  }
 
- .img {
-     margin: 30px 10px;
- }
-
  .left {
      position: fixed;
      margin-left: 1050px;
@@ -146,9 +137,11 @@
  .input {
      margin: 20px;
      width: 500px;
-     border: none;
+     border:none;
      font-size: 20px;
      padding: 20px;
+     outline:none;
+
  }
 
  .type_here {
@@ -203,6 +196,7 @@
 
  .row {
      display: flex;
+     margin-bottom:50px;
  }
 
  .search_bar>input {
@@ -224,7 +218,7 @@
  }
 
  .trends {
-     margin: 20px 40px;
+     margin: 10px 40px;
      padding: 10px;
      border-radius: 10px;
  }
@@ -241,7 +235,7 @@
  }
 
  .trendings {
-     margin: 40px;
+     margin: 30px;
  }
 
  .twts {
@@ -263,16 +257,30 @@
  }
 
  .selfs {
-     width: 5px;
-     margin: 80px auto auto 100px;
+     margin: 88px 9px;
      display: flex;
-     justify-content: space-around;
+     border-radius:20px;
+
  }
 
+ .img {
+    margin: 10px 10px;
+}
+
+ .selfs:hover{
+    background-color: rgb(212, 238, 242);
+    /* border:.1px solid rgb(202, 200, 200); */
+    cursor:pointer;
+
+}
  .self {
-     height: 70px;
-     margin: 10px auto auto 0px;
- }
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-bottom: 10px;
+    height: 70px;
+    margin: 10px auto auto 0px;
+}
 
  .tweet-user-info {
      display: flex;
