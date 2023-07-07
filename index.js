@@ -18,7 +18,7 @@ async function getTweetsAndInsertHTML() {
         const date = new Date(tweet.creationDatetime);
         
         return `<div id=${tweet._id} class="tweets">
-            <div class="tweet-profile-image">
+            <div class="tweet-pr1ofile-image">
             <img class="my_photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQn3V7ZeZ9zunHwRD7vHcv5Z-GhwvjDJ5rbw&usqp=CAU">
 
             </div>
